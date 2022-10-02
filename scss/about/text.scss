@@ -1,0 +1,26 @@
+.texts{
+    width: 100%;
+    // height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+    .text1{
+        max-width: 700px;
+        margin-bottom: 10px;
+        // height: 200px;
+    }
+
+    .text2{
+        max-width: 700px;
+        // height: 200px;
+    }
+}
+
+@media all and (max-width:1000px){
+    .texts{
+        flex-direction: column;
+        // margin-top: 30px;
+    }
+}
